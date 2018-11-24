@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Layout from '../components/Layout'
 
-class NotFoundPage extends React.Component {
+class NotFoundPage extends Component {
   render() {
     return (
       <Layout location={this.props.location}>

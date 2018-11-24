@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
+    title: 'Wasp GraphQL Libraries',
+    author: 'BlackWaspTech',
+    description:
+      'Demo and documentation for the Wasp GraphQL family of libraries.',
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
   },
   pathPrefix: '/gatsby-starter-blog',
@@ -38,18 +39,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Wasp-GraphQL Documentation`,
+        short_name: `wasp-graphql`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -65,5 +60,6 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+    `gatsby-plugin-styled-components`,
   ],
 }
