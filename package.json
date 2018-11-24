@@ -1,6 +1,6 @@
 {
   "name": "wasp-docs",
-  "description": "Documentation & demo for the wasp-graphql family of libraries",
+  "description": "Demo and documentation for the Wasp GraphQL family of libraries",
   "version": "1.0.0",
   "private": true,
   "author": "BlackWaspTech (https://github.com/BlackWaspTech)",
@@ -36,17 +36,22 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "react-redux": "^5.1.1",
     "react-typography": "^0.16.13",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "styled-components": "^4.1.1",
     "typeface-merriweather": "0.0.43",
     "typeface-montserrat": "0.0.43",
     "typography": "^0.16.17",
-    "typography-theme-wordpress-2016": "^0.15.10"
+    "typography-theme-wordpress-2016": "^0.15.10",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.11.1",
     "gh-pages": "^1.2.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "redux-devtools-extension": "^2.13.6"
   }
 }
