@@ -6,7 +6,7 @@ import Demo from '../components/Demo'
 class DemoPage extends Component {
   render() {
     return (
-      <Layout location={this.props.location}>
+      <Layout location={this.props.location} title="Demo">
         <Demo />
       </Layout>
     )
