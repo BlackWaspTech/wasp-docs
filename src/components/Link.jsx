@@ -9,6 +9,11 @@ const StyledLink = styled(Link)`
   /* text */
   color: inherit;
   text-decoration: none;
+
+  &:active,
+  &:hover {
+    text-decoration: underline;
+  }
 `
 
 export default StyledLink

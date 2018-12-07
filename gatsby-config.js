@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Wasp GraphQL Libraries',
-    author: 'BlackWaspTech',
+    title: 'wasp-graphql',
+    author: 'Black Wasp Tech',
     description:
-      'Demo and documentation for the Wasp GraphQL family of libraries.',
+      'Documentation and demo site for the wasp-graphql family of libraries.',
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
   },
   pathPrefix: '/gatsby-starter-blog',
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Wasp-GraphQL Documentation`,
+        name: `wasp-graphql documentation and demo`,
         short_name: `wasp-graphql`,
         start_url: `/`,
         background_color: `#ffffff`,
@@ -54,12 +54,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography',
-      },
-    },
     `gatsby-plugin-styled-components`,
   ],
 }

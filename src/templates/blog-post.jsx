@@ -24,7 +24,6 @@ class BlogPostTemplate extends React.Component {
         <p>{post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr />
-        <Bio />
 
         <ul
           style={{
@@ -50,6 +49,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <Bio />
       </Layout>
     )
   }

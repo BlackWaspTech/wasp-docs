@@ -1,28 +1,21 @@
 import React, { Component } from 'react'
 import { graphql } from 'gatsby'
-import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import Posts from '../components/Posts'
-import Link from '../components/Link'
 
 class BlogIndex extends Component {
   render() {
-    const { data, location } = this.props
-    const { title, description } = data.site.siteMetadata
-    const { edges: posts } = data.allMarkdownRemark
+    const { siteMetadata } = this.props.data.site
+    const { edges: posts } = this.props.data.allMarkdownRemark
 
     return (
-      <Layout location={location} title={title}>
-        <Helmet
-          htmlAttributes={{ lang: 'en' }}
-          meta={[{ name: 'description', content: description }]}
-          title={title}
-        />
-        <Bio />
-        <Link to="demo">View Demo</Link>
+      <Layout {...siteMetadata}>
+        <p>Brief description of libraries.</p>
+
         <Posts posts={posts} />
+        <Bio />
       </Layout>
     )
   }
@@ -34,8 +27,9 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title
+        author
         description
+        title
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

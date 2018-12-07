@@ -10,7 +10,7 @@ const Wrapper = ({ children }) => (
   <Provider store={configureStore()}>{children}</Provider>
 )
 
-class Demo extends Component {
+class Example extends Component {
   render() {
     return (
       <Wrapper>
@@ -22,4 +22,4 @@ class Demo extends Component {
   }
 }
 
-export default Demo
+export default Example
