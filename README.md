@@ -1,14 +1,8 @@
-# Wasp GraphQL Libraries
+# 🐝 Wasp GraphQL 🐝
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/BlackWaspTech/wasp-graphql/issues)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+> Promise-based GraphQL Libraries for Javascript
 
-Demo and documentation for the Wasp GraphQL family of libraries.
-
-Built on [Gatsby](https://www.gatsbyjs.org/).
-
-## Included libraries
-
-### [`wasp-graphql`](https://github.com/BlackWaspTech/wasp-graphql)
+## [`wasp-graphql`](https://github.com/BlackWaspTech/wasp-graphql)
 
 [![npm](https://img.shields.io/npm/v/wasp-graphql.svg)](https://www.npmjs.com/package/wasp-graphql)
 [![Build Status](https://travis-ci.com/dentemple/wasp-graphql.svg?branch=master)](https://travis-ci.com/dentemple/wasp-graphql)
@@ -37,7 +31,7 @@ query(url, init)
 
 [Read more.](https://github.com/BlackWaspTech/wasp-graphql)
 
-### [`redux-wasp`](https://github.com/BlackWaspTech/redux-wasp)
+## [`redux-wasp`](https://github.com/BlackWaspTech/redux-wasp)
 
 [![npm](https://img.shields.io/npm/v/redux-wasp.svg)](https://www.npmjs.com/package/redux-wasp)
 [![Build Status](https://travis-ci.org/BlackWaspTech/redux-wasp.svg?branch=master)](https://travis-ci.org/BlackWaspTech/redux-wasp)
@@ -47,7 +41,7 @@ Automates GraphQL queries for an existing Redux codebase.
 
 [Read more.](https://github.com/BlackWaspTech/redux-wasp)
 
-### [`redux-wasp-apollo`](https://github.com/BlackWaspTech/redux-wasp-apollo)
+## [`redux-wasp-apollo`](https://github.com/BlackWaspTech/redux-wasp-apollo)
 
 Provides integration between Redux and Apollo.
 
