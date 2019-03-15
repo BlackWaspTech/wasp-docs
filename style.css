@@ -1,0 +1,23 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* box */
+  margin: 2em auto;
+  max-width: 800px;
+  padding: 1em;
+  line-height: 1.4;
+  text-align: justify;
+
+  /* font */
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 1.1em;
+}
